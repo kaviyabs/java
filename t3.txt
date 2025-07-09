@@ -1,0 +1,18 @@
+package task;
+
+import java.util.Scanner;
+
+public class task2 {
+	
+		public static void main(String[] args) {
+			Scanner scan =new Scanner(System.in);
+			System.out.print("enter mark1:");
+			int mark1=scan.nextInt();
+			System.out.print("Enter mark2:");
+			int mark2=scan.nextInt();
+			System.out.println("my score out of 10 is"+mark1/10.0); 
+			System.out.print("my score out of 10 is"+mark2/10.0);
+			scan.close();
+			}
+	}
+
