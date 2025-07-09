@@ -1,23 +1,14 @@
-package task;
-
+package taskss;
 import java.util.Scanner;
-
-public class three_input {
-	public static void main(String[] args) {
-		Scanner sc=new Scanner (System.in);
-		System.out.println("Enter a name:");
-		String name=sc.nextLine();
-		
-		System.out.print("Enter the age:");
-		int age=sc.nextInt();
-		sc.nextLine();
-		System.out.println("Enter the department:");
-		String dept=sc.nextLine();
-		
-		System.out.println("Enter the section:");
-	    String section=sc.nextLine(); 
-		
-		
-		sc.close();
+public class markk_input {
+		public static void main(String[] args) {
+			Scanner scan =new Scanner(System.in);
+			System.out.print("enter mark1:");
+			int mark1=scan.nextInt();
+			System.out.print("Enter mark2:");
+			int mark2=scan.nextInt();
+			System.out.println("my score out of 10 is"+mark1/10.0); 
+			System.out.print("my score out of 10 is"+mark2/10.0);
+			scan.close();
+			}
 	}
-}
